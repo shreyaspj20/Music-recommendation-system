@@ -26,10 +26,13 @@ We have an unique story in the way we recommend the songs for each mood, for exa
  
  
 # LIBRARIES USED:
-1.OpenCV
-2.Tensorflow and Keras
-3.Sklearn
-4.LightGBM
+1.OpenCV.
+
+2.Tensorflow and Keras.
+
+3.Sklearn.
+
+4.LightGBM.
 
 
 # HOW TO USE
