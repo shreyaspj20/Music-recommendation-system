@@ -1,16 +1,16 @@
-#Music-recommendation-system based on the present Emotion.
+# Music-recommendation-system based on the present Emotion.
 
-Contributors-
+## Contributors-
 
 1.Shreyas.P.J , github: shreyaspj20
 
 2.Utsav Pati ,github: Utsavpati
 
-#ABSTRACT
+# ABSTRACT:
 
 Song recommendations have existed for a long time, but in majority of the scenarios the recommendation is determined after learning the user preferences over a period of time, like looking at his past song preferences, time he listens to the music etc. In this paper we propose a new approach to song recommendation, where in the mood of a person is determined from his picture and based on the mood predicted song recommendations are made that best suit the mood predicted.
 
-#DESCRIPTION
+# DESCRIPTION:
 
 
 We first process the image of the user taken as an input with the help of a python library for Computer Vision called 'OpenCV'. This captured image is then made available for the CNN in combination with DNN to make a prediction whether the current mood of the user is 'Happy' or 'Sad'.
@@ -18,14 +18,14 @@ The second part is the usage of Unsupervised Machine Learning techniques for clu
 We have an unique story in the way we recommend the songs for each mood, for example when other sites recommend sad songs when a person is sad or feeling bad, we recommend users with songs which will cheer them up('VERY ENTERTAINING') and 'RELAXING' songs when they are 'HAPPY'.The code to train the neural network can be found in the 'Emotion_detector_version2' iPython notebook. If anyone wants to modify the network to suit their particular needs or feel it is necessary to tweak the network they can do so by making changes to the code present there. The model created is saved as 'final_model.h5'
 
 
-#DATA
+# DATA:
  
  The data we have used here is from https://www.kaggle.com/yamaerenay/spotify-dataset-19212020-160k-tracks.
  The file contains more than 160.000 songs collected from Spotify Web API, and also you can find data grouped by artist, year, or genre in the data section.
  It has features like acousticness, energy, loudness and danceability which make the clustering algorithm work more effectively.
  
  
-#LIBRARIES USED
+# LIBRARIES USED:
 1.OpenCV
 2.Tensorflow and Keras
 3.Sklearn
