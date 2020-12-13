@@ -4,8 +4,10 @@ from spotipy.oauth2 import SpotifyClientCredentials
 
 from emotion_video_classifier import emotion_testing
 
-cid = "  "  # enter your cid
-secret = " "  # enter your secret id
+print("Enter your CID of spotify account")
+cid = input()  # enter your cid
+print("Enter your secret ID of spotify account")
+secret = input()  # enter your secret id
 client_credentials_manager = SpotifyClientCredentials(client_id=cid, client_secret=secret)
 sp = spotipy.Spotify(client_credentials_manager=client_credentials_manager)
 
