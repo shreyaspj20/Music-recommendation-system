@@ -34,9 +34,12 @@ We have an unique story in the way we recommend the songs for each mood, for exa
 
 4.LightGBM.
 
+5.Spotipy
+
+
 
 # HOW TO USE
-This application can be used by downloading all the files into your local directory and then executing the 'Emotion based Music recommender.ipynb' which then during runtime will open up your WebCam .Just click 'q' button on the keyboard to stop capturing the image and the recommendations will be ready for you.
-The user can also use their own spotify playlist of songs by just changing the dataset to their own.
+This application can be used by executing the run.py file which then during runtime will ask for certain credentials and also the artist name preferred. This will then collect required albums from the API and then will open up your WebCam .Just click 'q' button on the keyboard to stop capturing the image and the recommendations will be ready for you.
+
 
 
