@@ -1,14 +1,11 @@
+import config
 import spotipy
 import pandas as pd
 from spotipy.oauth2 import SpotifyClientCredentials
 
 from emotion_video_classifier import emotion_testing
 
-print("Enter your CID of spotify account")
-cid = input()  # enter your cid
-print("Enter your secret ID of spotify account")
-secret = input()  # enter your secret id
-client_credentials_manager = SpotifyClientCredentials(client_id=cid, client_secret=secret)
+client_credentials_manager = SpotifyClientCredentials(client_id=config.cid, client_secret=config.secret)
 sp = spotipy.Spotify(client_credentials_manager=client_credentials_manager)
 
 print("Enter name of the artist")
