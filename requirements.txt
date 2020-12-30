@@ -3,3 +3,4 @@ pandas~=1.2.0
 numpy~=1.19.4
 Keras~=2.4.3
 opencv-python~=4.4.0.46
+scikit-learn~=0.24.0
