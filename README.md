@@ -36,10 +36,12 @@ We have an unique story in the way we recommend the songs for each mood, for exa
 
 5.Spotipy
 
+6.Tkinter
 
+7.Pillow
 
 # HOW TO USE
-This application can be used by executing the run.py file which then during runtime will ask for certain credentials and also the artist name preferred. This will then collect required albums from the API and then will open up your WebCam .Just click 'q' button on the keyboard to stop capturing the image and the recommendations will be ready for you.
+This application can be used by executing the run.py file which then opens up a GUI asking the user to enter the name of the artist.This will then collect required albums from the API and then will open up your WebCam .Just click 'q' button on the keyboard to stop capturing the image and the GUI will lead you through. Clicking on print button will make the recommendations ready for you. Enjoy the ride.
 
 
 
