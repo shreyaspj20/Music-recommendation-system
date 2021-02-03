@@ -1,4 +1,4 @@
-# Music-recommendation-system based on the present Emotion.
+# Emotion based Music Recommender System.
 
 ## Contributors-
 
