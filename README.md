@@ -1,5 +1,8 @@
 # Emotion based Music Recommender System.
 
+![Spotify](https://img.shields.io/badge/Spotify-1ED760?&style=for-the-badge&logo=spotify&logoColor=white)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
 ## Contributors-
 
 1.Shreyas.P.J , github: shreyaspj20
