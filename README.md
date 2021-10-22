@@ -42,6 +42,9 @@
 
 ![](giphy.gif)
 
+Alternatively, click on the link below to the video.
+
+https://youtu.be/F21sr08tg98
 
 # 💥HOW TO USE :
 
