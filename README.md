@@ -40,7 +40,7 @@
   * Pillow.
 
 
-![](giphy.gif)
+![](final.gif)
 
 Alternatively, click on the link below to the video.
 
